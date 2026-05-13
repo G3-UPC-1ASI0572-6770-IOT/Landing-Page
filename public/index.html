@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+  <head>
+    <meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="ParkingNow helps drivers find and reserve parking with IoT-verified real-time availability."/>
+<meta name="keywords" content="ParkingNow, smart parking, IoT parking, real-time parking availability, parking app, Lima"/>
+<meta name="robots" content="index,follow"/>
+<meta name="author" content="Code Mondoguito"/>
+<meta name="theme-color" content="#00268A"/>
+<link rel="canonical" href="https://parkingnow.app/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="ParkingNow | IoT-Verified Parking"/>
+<meta property="og:description" content="Find and reserve parking with IoT-verified availability in real time."/>
+<meta property="og:url" content="https://parkingnow.app/"/>
+<meta property="og:site_name" content="ParkingNow"/>
+<meta property="og:image" content="https://parkingnow.app/og-image.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="ParkingNow | IoT-Verified Parking"/>
+<meta name="twitter:description" content="Find and reserve parking with IoT-verified availability in real time."/>
+<meta name="twitter:image" content="https://parkingnow.app/og-image.jpg"/>
+<link rel="icon" type="image/png" href="assets/images/logoparkingnow.png"/>
+<link rel="apple-touch-icon" href="assets/images/logoparkingnow.png"/>
+<title>ParkingNow | IoT-Verified Parking</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600;700&amp;family=Manrope:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-container": "#ef775b",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed-variant": "#233e9f",
+                        "primary-fixed": "#dde1ff",
+                        "surface-container-high": "#e9e7f0",
+                        "secondary-fixed": "#c4e7ff",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#822712",
+                        "outline": "#757684",
+                        "primary-container": "#00268a",
+                        "tertiary-fixed-dim": "#ffb4a3",
+                        "on-primary-fixed": "#001454",
+                        "on-surface-variant": "#444652",
+                        "background": "#ffffff",
+                        "on-surface": "#1a1b21",
+                        "primary": "#001558",
+                        "inverse-primary": "#b8c4ff",
+                        "surface-container-highest": "#e3e1ea",
+                        "on-error": "#ffffff",
+                        "surface-container-low": "#f4f2fb",
+                        "secondary": "#00658b",
+                        "on-secondary-fixed": "#001e2c",
+                        "inverse-on-surface": "#f1f0f9",
+                        "error": "#ba1a1a",
+                        "surface-variant": "#e3e1ea",
+                        "surface-container": "#eeedf6",
+                        "outline-variant": "#c5c5d4",
+                        "surface-dim": "#dad9e2",
+                        "on-error-container": "#93000a",
+                        "secondary-fixed-dim": "#7dd0ff",
+                        "on-secondary-container": "#004d6a",
+                        "on-primary-container": "#7d94f9",
+                        "on-secondary": "#ffffff",
+                        "inverse-surface": "#2f3037",
+                        "secondary-container": "#3bc2ff",
+                        "surface-bright": "#ffffff",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-fixed": "#ffdad2",
+                        "tertiary": "#400700",
+                        "primary-fixed-dim": "#b8c4ff",
+                        "on-secondary-fixed-variant": "#004c69",
+                        "on-tertiary-fixed": "#3d0600",
+                        "surface": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "surface-tint": "#3e57b8",
+                        "tertiary-container": "#651201",
+                        "on-background": "#1a1b21"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "xl": "64px",
+                        "base": "4px",
+                        "margin-mobile": "16px",
+                        "lg": "40px",
+                        "xs": "8px",
+                        "gutter": "24px",
+                        "md": "24px",
+                        "sm": "16px",
+                        "margin-desktop": "48px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Manrope"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "label-md": ["Manrope"],
+                        "body-lg": ["Manrope"],
+                        "display-lg": ["Hanken Grotesk"],
+                        "body-md": ["Manrope"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "600" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .ambient-shadow-lvl1 { box-shadow: 0 4px 20px 0 rgba(0, 38, 138, 0.05); }
+        .ambient-shadow-lvl2 { box-shadow: 0 8px 30px -4px rgba(0, 38, 138, 0.1); }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ParkingNow",
+        "url": "https://parkingnow.app/",
+        "email": "contact@codemondoguito.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lima",
+          "addressCountry": "PE"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "ParkingNow",
+        "url": "https://parkingnow.app/",
+        "inLanguage": "en"
+      }
+    </script>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+  </head>
+  <body class="bg-background text-on-surface font-body-md text-body-md antialiased overflow-x-hidden">
+    <div id="header-placeholder"></div>
+    <div id="main-placeholder"></div>
+    <div id="footer-placeholder"></div>
+    <script type="module" src="assets/scripts/main.js"></script>
+  </body>
+</html>
