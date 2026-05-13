@@ -89,9 +89,9 @@ function setupScrollTopButton() {
 }
 
 async function bootstrap() {
-  await injectPartial("header-placeholder", "_header.html");
+  await injectPartial("header-placeholder", "public/_header.html");
   mountMain();
-  await injectPartial("footer-placeholder", "_footer.html");
+  await injectPartial("footer-placeholder", "public/_footer.html");
 
   setupLanguageToggle(resolveInitialLanguage());
   setupRevealAnimations();

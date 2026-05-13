@@ -16,7 +16,7 @@ export const mainTemplate = `<main class="pt-[90px]">
 </div>
 </div>
 <div class="flex-1 w-full relative flex justify-center">
-<img src="assets/images/hero.png" alt="Smart parking map visualization" class="w-full max-w-[560px] h-auto object-contain"/>
+<img src="public/assets/images/hero.png" alt="Smart parking map visualization" class="w-full max-w-[560px] h-auto object-contain"/>
 </div>
 </section>
 <!-- 3. Problem Section -->
@@ -99,7 +99,7 @@ export const mainTemplate = `<main class="pt-[90px]">
 </div>
 <div class="flex-1 w-full relative h-[400px] bg-surface rounded-[24px] ambient-shadow-lvl2 p-0 border border-surface-container-highest overflow-hidden">
 <div class="w-full h-full rounded-[24px] overflow-hidden bg-surface-container-low">
-<img src="assets/images/4.png" alt="Parking spot monitoring illustration" class="w-full h-full object-cover object-center"/>
+<img src="public/assets/images/4.png" alt="Parking spot monitoring illustration" class="w-full h-full object-cover object-center"/>
 </div>
 </div>
 </section>
@@ -108,7 +108,7 @@ export const mainTemplate = `<main class="pt-[90px]">
 <div class="flex flex-col md:flex-row items-center gap-xl">
 <div class="flex-1 w-full order-2 md:order-1 flex justify-center">
 <div class="w-full max-w-md bg-surface rounded-[32px] ambient-shadow-lvl2 border border-surface-container-highest p-sm">
-<img src="assets/images/movile.png" alt="ParkingNow mobile app preview" class="w-full h-auto object-contain rounded-[24px]"/>
+<img src="public/assets/images/movile.png" alt="ParkingNow mobile app preview" class="w-full h-auto object-contain rounded-[24px]"/>
 </div>
 </div>
 <div class="flex-1 flex flex-col gap-md order-1 md:order-2">
@@ -316,7 +316,7 @@ export const mainTemplate = `<main class="pt-[90px]">
 <div class="flex-1">
 <div class="w-full max-w-[620px] mx-auto md:mx-0 rounded-[28px] overflow-hidden border border-surface-container-highest ambient-shadow-lvl2 bg-surface">
 <div class="aspect-[4/3]">
-<img src="assets/images/codemongoduito.png" alt="Code Mondoguito team" class="w-full h-full object-cover object-center"/>
+<img src="public/assets/images/codemongoduito.png" alt="Code Mondoguito team" class="w-full h-full object-cover object-center"/>
 </div>
 </div>
 </div>
@@ -492,7 +492,7 @@ export const mainTemplate = `<main class="pt-[90px]">
 <!-- Visual Map Card Detail -->
 <div class="flex-1 w-full flex justify-center relative">
 <div class="absolute inset-0 bg-[#00ACE8]/5 rounded-full blur-3xl scale-150"></div>
-<img src="assets/images/iotdesing.png" alt="IoT design preview" class="w-full max-w-[560px] h-auto object-contain relative z-10"/>
+<img src="public/assets/images/iotdesing.png" alt="IoT design preview" class="w-full max-w-[560px] h-auto object-contain relative z-10"/>
 </div></div></section>
 <button id="scroll-top-btn" class="fixed bottom-6 right-6 z-[80] w-12 h-12 rounded-full bg-[#00268A] text-white ambient-shadow-lvl2 opacity-0 pointer-events-none translate-y-3 transition-all duration-300 hover:bg-[#001e70] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#00ACE8]" aria-label="Back to top" type="button">
 <span class="material-symbols-outlined text-[22px]">arrow_upward</span>
