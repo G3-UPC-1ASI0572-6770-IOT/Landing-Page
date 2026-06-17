@@ -1,0 +1,51 @@
+<header class="site-hd" role="banner">
+  <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between gap-8">
+    <!-- Logo -->
+    <a href="#" class="flex items-center gap-2.5 shrink-0" aria-label="ParkingNow — home">
+      <img src="public/assets/images/logoparkingnow.png"
+           alt="ParkingNow"
+           class="h-7 w-auto"
+           loading="eager"/>
+      <span class="font-display font-bold text-[17px] text-white hidden sm:block tracking-tight">ParkingNow</span>
+    </a>
+
+    <!-- Desktop nav -->
+    <nav class="hidden lg:flex items-center gap-7" aria-label="Main navigation">
+      <a id="nav-benefits" class="nl" href="#benefits">Problem</a>
+      <a id="nav-how" class="nl" href="#how-it-works">How it works</a>
+      <a id="nav-drivers" class="nl" href="#drivers">Drivers</a>
+      <a id="nav-owners" class="nl" href="#owners">Owners</a>
+      <a id="nav-faq" class="nl" href="#faq">FAQ</a>
+      <a id="nav-contact" class="nl" href="#contact">Contact</a>
+    </nav>
+
+    <!-- CTA group -->
+    <div class="flex items-center gap-2 shrink-0">
+      <button id="lang-toggle"
+              class="btn btn-gh font-mono text-[12px] uppercase tracking-wider cursor-pointer"
+              type="button"
+              aria-label="Toggle language">
+        <span id="lang-label">EN</span>
+      </button>
+      <a id="cta-owner-header"
+         href="http://localhost:4200/iam/sign-up"
+         class="hidden sm:inline-flex btn btn-sec"
+         rel="noopener">For owners</a>
+      <a id="cta-find-header"
+         href="#drivers"
+         class="inline-flex btn btn-pri">Find parking</a>
+    </div>
+  </div>
+
+  <!-- Mobile nav -->
+  <nav class="lg:hidden" style="border-top:1px solid rgba(255,255,255,.06);background:rgba(4,12,27,.95)">
+    <div class="max-w-6xl mx-auto px-6 py-2 flex flex-wrap gap-x-5 gap-y-1" aria-label="Mobile navigation">
+      <a id="mnav-benefits" class="nl text-[12.5px]" href="#benefits">Problem</a>
+      <a id="mnav-how" class="nl text-[12.5px]" href="#how-it-works">How it works</a>
+      <a id="mnav-drivers" class="nl text-[12.5px]" href="#drivers">Drivers</a>
+      <a id="mnav-owners" class="nl text-[12.5px]" href="#owners">Owners</a>
+      <a id="mnav-faq" class="nl text-[12.5px]" href="#faq">FAQ</a>
+      <a id="mnav-contact" class="nl text-[12.5px]" href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
