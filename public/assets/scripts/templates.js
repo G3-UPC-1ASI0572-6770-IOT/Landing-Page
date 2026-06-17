@@ -1,4 +1,4 @@
-const W = "http://localhost:4200/iam/sign-up";
+const W = "https://parkingnow-frontend.vercel.app";
 const D = "#drivers";
 
 export const mainTemplate = `<main class="pt-16">
@@ -24,7 +24,7 @@ export const mainTemplate = `<main class="pt-16">
         </div>
 
         <h1 data-i18n-html="hero.title"
-            class="font-display text-[44px] sm:text-[58px] md:text-[70px] leading-[1.0] font-bold tracking-[-.035em] mb-6 text-white reveal d1">
+            class="font-display text-[44px] sm:text-[58px] md:text-[70px] leading-[1.05] font-bold tracking-[-.03em] mb-6 text-white reveal d1">
           Parking, <span class="text-grd">verified</span><br class="hidden sm:block"/> by physical sensors.
         </h1>
 
@@ -108,7 +108,7 @@ export const mainTemplate = `<main class="pt-16">
   <div class="max-w-6xl mx-auto px-6 relative z-10">
     <div class="grid lg:grid-cols-12 gap-8 mb-16 md:mb-20">
       <div class="lg:col-span-5 reveal-left">
-        <span class="eyebrow"><span class="sep">01</span> <span data-i18n="prob.eyebrow">The problem</span></span>
+        <span class="eyebrow"><span data-i18n="prob.eyebrow">The problem</span></span>
         <h2 data-i18n="prob.title"
             class="font-display text-[32px] md:text-[46px] font-bold text-ink-navy leading-[1.06] mt-4">
           Parking should not be a guessing game.
@@ -182,8 +182,7 @@ export const mainTemplate = `<main class="pt-16">
 
     <div class="space-y-px bg-ink-line border border-ink-line rounded-2xl overflow-hidden reveal">
       <div class="arch-row p-8 md:p-10 grid md:grid-cols-12 gap-6 items-center">
-        <div class="md:col-span-1 font-display text-[48px] font-bold leading-none"
-             style="background:linear-gradient(135deg,var(--teal),#009678);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">
+        <div class="arch-num md:col-span-1 font-display text-[48px] font-bold leading-none text-ink-line" style="letter-spacing:-.03em">
           01
         </div>
         <div class="md:col-span-4">
@@ -200,8 +199,7 @@ export const mainTemplate = `<main class="pt-16">
         </div>
       </div>
       <div class="arch-row p-8 md:p-10 grid md:grid-cols-12 gap-6 items-center">
-        <div class="md:col-span-1 font-display text-[48px] font-bold leading-none"
-             style="background:linear-gradient(135deg,var(--teal),#009678);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">
+        <div class="arch-num md:col-span-1 font-display text-[48px] font-bold leading-none text-ink-line" style="letter-spacing:-.03em">
           02
         </div>
         <div class="md:col-span-4">
@@ -218,8 +216,7 @@ export const mainTemplate = `<main class="pt-16">
         </div>
       </div>
       <div class="arch-row p-8 md:p-10 grid md:grid-cols-12 gap-6 items-center">
-        <div class="md:col-span-1 font-display text-[48px] font-bold leading-none"
-             style="background:linear-gradient(135deg,var(--amber),#d97706);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">
+        <div class="arch-num md:col-span-1 font-display text-[48px] font-bold leading-none text-ink-line" style="letter-spacing:-.03em">
           03
         </div>
         <div class="md:col-span-4">
@@ -261,7 +258,7 @@ export const mainTemplate = `<main class="pt-16">
   <div class="max-w-6xl mx-auto px-6 relative z-10">
     <div class="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
       <div class="lg:col-span-6 reveal-left">
-        <span class="eyebrow-dark"><span class="sep">03</span> <span data-i18n="iot.eyebrow">The differentiator</span></span>
+        <span class="eyebrow-dark"><span data-i18n="iot.eyebrow">The differentiator</span></span>
         <h2 data-i18n="iot.title"
             class="font-display text-[32px] md:text-[46px] font-bold text-white leading-[1.06] mt-4 mb-6">
           Availability verified by<br/>physical sensors.
@@ -326,7 +323,7 @@ export const mainTemplate = `<main class="pt-16">
         </div>
       </div>
       <div class="lg:col-span-7 order-1 lg:order-2 reveal-right">
-        <span class="eyebrow"><span class="sep">04</span> <span data-i18n="drv.eyebrow">For drivers</span></span>
+        <span class="eyebrow"><span data-i18n="drv.eyebrow">For drivers</span></span>
         <h2 data-i18n="drv.title"
             class="font-display text-[32px] md:text-[46px] font-bold text-ink-navy leading-[1.06] mt-4 mb-5">
           Park with confidence.
@@ -384,7 +381,7 @@ export const mainTemplate = `<main class="pt-16">
   <div class="max-w-6xl mx-auto px-6">
     <div class="grid lg:grid-cols-12 gap-12 lg:gap-20 items-start">
       <div class="lg:col-span-7 reveal-left">
-        <span class="eyebrow"><span class="sep">05</span> <span data-i18n="own.eyebrow">For parking owners</span></span>
+        <span class="eyebrow"><span data-i18n="own.eyebrow">For parking owners</span></span>
         <h2 data-i18n="own.title"
             class="font-display text-[32px] md:text-[46px] font-bold text-ink-navy leading-[1.06] mt-4 mb-5">
           Maximize your parking revenue.
@@ -472,7 +469,7 @@ export const mainTemplate = `<main class="pt-16">
   <div class="max-w-6xl mx-auto px-6">
     <div class="grid lg:grid-cols-12 gap-8 mb-16">
       <div class="lg:col-span-7 reveal-left">
-        <span class="eyebrow"><span class="sep">06</span> <span data-i18n="eco.eyebrow">The ecosystem</span></span>
+        <span class="eyebrow"><span data-i18n="eco.eyebrow">The ecosystem</span></span>
         <h2 data-i18n="eco.title"
             class="font-display text-[32px] md:text-[46px] font-bold text-ink-navy leading-[1.06] mt-4">
           Connecting supply with demand.
@@ -654,7 +651,7 @@ export const mainTemplate = `<main class="pt-16">
   <div class="max-w-6xl mx-auto px-6">
     <div class="grid lg:grid-cols-12 gap-12 items-start">
       <div class="lg:col-span-6 reveal-left">
-        <span class="eyebrow"><span class="sep">08</span> <span data-i18n="trust.eyebrow">Trust</span></span>
+        <span class="eyebrow"><span data-i18n="trust.eyebrow">Trust</span></span>
         <h2 data-i18n="trust.title"
             class="font-display text-[32px] md:text-[46px] font-bold text-ink-navy leading-[1.06] mt-4 mb-5">
           Designed with transparency.
@@ -698,7 +695,7 @@ export const mainTemplate = `<main class="pt-16">
         </div>
       </div>
       <div class="lg:col-span-6 reveal-right d1">
-        <span class="eyebrow"><span class="sep">09</span> <span data-i18n="about.eyebrow">About</span></span>
+        <span class="eyebrow"><span data-i18n="about.eyebrow">About</span></span>
         <h2 data-i18n="about.title"
             class="font-display text-[32px] md:text-[46px] font-bold text-ink-navy leading-[1.06] mt-4 mb-5">
           Code Mondoguito.
@@ -723,7 +720,7 @@ export const mainTemplate = `<main class="pt-16">
   <div class="max-w-6xl mx-auto px-6">
     <div class="grid lg:grid-cols-12 gap-8 mb-12 reveal">
       <div class="lg:col-span-7">
-        <span class="eyebrow"><span class="sep">10</span> <span data-i18n="demo.eyebrow">Product demo</span></span>
+        <span class="eyebrow"><span data-i18n="demo.eyebrow">Product demo</span></span>
         <h2 data-i18n="demo.title"
             class="font-display text-[32px] md:text-[46px] font-bold text-ink-navy leading-[1.06] mt-4">
           ParkingNow in one flow.
@@ -737,21 +734,33 @@ export const mainTemplate = `<main class="pt-16">
       </div>
     </div>
 
-    <div class="aspect-video rounded-2xl flex items-center justify-center text-white relative overflow-hidden reveal d1"
-         style="box-shadow:0 24px 80px rgba(0,0,0,.18)">
-      <div class="absolute inset-0" style="background:linear-gradient(135deg,var(--midnight) 0%,#0d2040 55%,#071528 100%)"></div>
-      <div class="absolute inset-0" style="background:radial-gradient(circle at 25% 40%,var(--teal-glow),transparent 50%),radial-gradient(circle at 75% 70%,var(--amber-glow),transparent 50%)"></div>
-      <div class="absolute inset-0 hero-noise"></div>
-      <div class="text-center px-8 relative z-10">
-        <button class="w-18 h-18 mx-auto rounded-full border-2 flex items-center justify-center mb-6 hover:border-teal transition-all cursor-pointer"
-                style="width:72px;height:72px;border-color:rgba(255,255,255,.25);background:rgba(0,212,170,.12);backdrop-filter:blur(8px);"
-                aria-label="Play demo video">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" style="margin-left:4px;color:var(--teal)" aria-hidden="true">
+    <div class="aspect-video rounded-2xl overflow-hidden reveal d1 demo-yt-wrap"
+         style="box-shadow:0 24px 80px rgba(0,0,0,.18);position:relative;background:#000;cursor:pointer"
+         data-yt="tHhihtn1FUU"
+         role="button"
+         tabindex="0"
+         aria-label="Play ParkingNow demo video">
+      <!-- Thumbnail layer -->
+      <img src="https://i.ytimg.com/vi/tHhihtn1FUU/maxresdefault.jpg"
+           onerror="this.src='https://i.ytimg.com/vi/tHhihtn1FUU/hqdefault.jpg'"
+           alt="ParkingNow demo — sensor detection to payment flow"
+           class="w-full h-full object-cover absolute inset-0 demo-yt-thumb"
+           style="transition:transform .4s cubic-bezier(.16,1,.3,1),opacity .3s"/>
+      <!-- Dark overlay -->
+      <div class="absolute inset-0" style="background:rgba(4,12,27,.45);transition:background .3s" aria-hidden="true"></div>
+      <!-- Noise -->
+      <div class="absolute inset-0 hero-noise" aria-hidden="true"></div>
+      <!-- Play button -->
+      <div class="absolute inset-0 flex flex-col items-center justify-center gap-5 relative z-10">
+        <div class="demo-play-btn" style="width:80px;height:80px;border-radius:50%;background:rgba(0,212,170,.18);border:2px solid rgba(0,212,170,.5);display:flex;align-items:center;justify-content:center;backdrop-filter:blur(10px);transition:transform .25s,background .25s,border-color .25s">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" style="margin-left:4px;color:var(--teal)" aria-hidden="true">
             <path d="M8 5v14l11-7z"/>
           </svg>
-        </button>
-        <div data-i18n="demo.badge" class="font-mono text-[11px] uppercase tracking-[.15em] mb-3" style="color:rgba(255,255,255,.4)">Demo · MVP</div>
-        <p data-i18n="demo.ph" class="font-display font-bold text-[20px] max-w-md mx-auto" style="color:rgba(255,255,255,.85)">Replace with the final recorded walkthrough before delivery.</p>
+        </div>
+        <div>
+          <div data-i18n="demo.badge" class="font-mono text-[11px] uppercase tracking-[.15em] mb-2 text-center" style="color:rgba(255,255,255,.5)">Demo · MVP v1.0</div>
+          <p data-i18n="demo.ph" class="font-display font-bold text-[18px] max-w-sm mx-auto text-center" style="color:rgba(255,255,255,.9)">Sensor detection → reservation → payment → QR ticket → admin monitoring.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -763,7 +772,7 @@ export const mainTemplate = `<main class="pt-16">
   <div class="max-w-6xl mx-auto px-6 relative z-10">
     <div class="grid lg:grid-cols-12 gap-12 lg:gap-20">
       <div class="lg:col-span-5 reveal-left">
-        <span class="eyebrow"><span class="sep">11</span> <span data-i18n="contact.eyebrow">Contact</span></span>
+        <span class="eyebrow"><span data-i18n="contact.eyebrow">Contact</span></span>
         <h2 id="contact-title" data-i18n="contact.title"
             class="font-display text-[32px] md:text-[46px] font-bold text-ink-navy leading-[1.06] mt-4 mb-5">
           Get in touch.
@@ -855,7 +864,7 @@ export const mainTemplate = `<main class="pt-16">
 <section id="faq" class="sec soft">
   <div class="max-w-3xl mx-auto px-6">
     <div class="mb-12 reveal">
-      <span class="eyebrow"><span class="sep">12</span> <span data-i18n="faq.eyebrow">FAQ</span></span>
+      <span class="eyebrow"><span data-i18n="faq.eyebrow">FAQ</span></span>
       <h2 data-i18n="faq.title" id="faq-title"
           class="font-display text-[32px] md:text-[46px] font-bold text-ink-navy leading-[1.06] mt-4">
         Frequently asked questions.
@@ -881,7 +890,7 @@ export const mainTemplate = `<main class="pt-16">
   <div class="max-w-6xl mx-auto px-6 relative z-10">
     <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-center">
       <div class="lg:col-span-7 reveal-left">
-        <span class="eyebrow-dark"><span class="sep">13</span> <span data-i18n="fin.eyebrow">Ready to launch</span></span>
+        <span class="eyebrow-dark"><span data-i18n="fin.eyebrow">Ready to launch</span></span>
         <h2 data-i18n="fin.title"
             class="font-display text-[40px] md:text-[58px] font-bold leading-[1.0] mt-4 mb-6 tracking-[-.04em] text-white">
           Ready to park smarter?

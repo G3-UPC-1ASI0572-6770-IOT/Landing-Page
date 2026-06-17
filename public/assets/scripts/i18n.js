@@ -85,7 +85,7 @@ const T = {
     "demo.title":"ParkingNow in one flow.",
     "demo.subtitle":"Sensor detection, reservation, payment, QR ticket, and admin monitoring in a single walkthrough.",
     "demo.badge":"Demo · MVP",
-    "demo.ph":"Replace with the final recorded walkthrough before delivery.",
+    "demo.ph":"Sensor detection → reservation → payment → QR ticket → admin monitoring.",
 
     "contact.eyebrow":"Contact",
     "contact.title":"Get in touch.",
@@ -211,7 +211,7 @@ const T = {
     "demo.title":"ParkingNow en un flujo.",
     "demo.subtitle":"Detección de sensores, reserva, pago, ticket QR y monitoreo admin en un recorrido completo.",
     "demo.badge":"Demo · MVP",
-    "demo.ph":"Reemplazar con el recorrido grabado final antes de la entrega.",
+    "demo.ph":"Detección de sensores → reserva → pago → ticket QR → monitoreo admin.",
 
     "contact.eyebrow":"Contacto",
     "contact.title":"Ponte en contacto.",
